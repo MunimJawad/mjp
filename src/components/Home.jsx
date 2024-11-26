@@ -55,7 +55,7 @@ function Home() {
                         <h1 className='font-bold'>Currently Working on</h1>
                         <div className='flex space-x-5' >
                     <FaReact  size={24} className='text-2xl md:text-4xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]'/>
-                    <DiDjango size={24} className='text-2xl md:text-4xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]'/>
+                    <DiDjango size={24} className='text-green-800 text-2xl md:text-4xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]'/>
                     <SiMysql size={24} className='text-2xl md:text-4xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]'/>
                     <SiTailwindcss size={24} className='text-2xl md:text-4xl cursor-pointer hover:scale-110 duration-200 rounded-full border-[2px]'/>
                     </div>
