@@ -45,7 +45,7 @@ function Projects() {
   return (
     <div name="Projects" className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10'>
         <div>
-        <h1 className='text-3xl font-bold mb-5'>Featured Projects</h1>
+        <h1 className='text-3xl font-bold mb-5'>Projects</h1>
         </div>
 
 
