@@ -23,13 +23,13 @@ function About() {
           </h2>
           <ul className="space-y-3">
             <li className="text-gray-700">
-              <span className="font-bold">Bachelor's in Computer Science</span> – XYZ University, 2020
+              <span className="font-bold">Bachelor's in Computer Science</span> – United Internatonal University, 2023
             </li>
             <li className="text-gray-700">
               <span className="font-bold">Certified Full Stack Developer</span> – ABC Coding Bootcamp, 2021
             </li>
             <li className="text-gray-700">
-              <span className="font-bold">React & Advanced JavaScript</span> – Online Training Platform, 2022
+              <span className="font-bold">Python, Django, React & Advanced JavaScript</span> – Online Training Platform, 2022
             </li>
           </ul>
         </div>
@@ -65,13 +65,13 @@ function About() {
               React.js
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              Node.js
+              Django
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
               JavaScript (ES6+)
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              MongoDB
+              MySQL
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
               RESTful APIs

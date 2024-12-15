@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog/post/:id" element={<BlogPost />} />
       </Routes>
 
       {/* Footer */}
