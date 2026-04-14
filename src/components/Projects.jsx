@@ -51,7 +51,7 @@ function Projects() {
     description:
       "Developed a real-time chat system using WebSockets supporting one-to-one and group messaging with presence tracking, typing indicators, and optimized message storage.",
     demoLink: "https://github.com/MunimJawad/Real-time-chat-application",
-    sourceCode: "#",
+    sourceCode: "https://github.com/MunimJawad/Real-time-chat-application",
   },
     {
   id: 6,
@@ -78,6 +78,12 @@ function Projects() {
           A showcase of some of the technologies I've worked with and projects
           I've built.
         </p>
+
+       <div className="mt-4">
+    <p className="text-sm text-gray-500 italic max-w-2xl mx-auto">
+      Note: Some projects listed below were developed as part of my professional work at Padakhep ICT. Due to confidentiality, source code for these projects cannot be publicly shared.
+    </p>
+  </div>
       </div>
 
       {/* Cards Grid */}
@@ -105,16 +111,22 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2 rounded shadow-sm"
               >
-                Demo
+                View Live
               </a>
-              <a
-                href={sourceCode}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-green-600 hover:bg-green-700 text-white font-bold px-5 py-2 rounded shadow-sm"
-              >
-                Source Code
-              </a>
+               {sourceCode !== "#" ? (
+    <a
+      href={sourceCode}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-green-600 hover:bg-green-700 text-white font-bold px-5 py-2 rounded shadow-sm"
+    >
+      Source Code
+    </a>
+  ) : (
+    <span className="bg-gray-400 text-white font-bold px-5 py-2 rounded cursor-not-allowed">
+      Private Code
+    </span>
+  )}
             </div>
           </div>
         ))}
