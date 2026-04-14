@@ -10,7 +10,7 @@ function Navbar() {
   const navItem = [
     { id: 1, text: "Home", to: "/" },
     { id: 2, text: "About", to: "/about" },
-    { id: 3, text: "Blog", to: "/blog" },
+    /* { id: 3, text: "Blog", to: "/blog" },*/
     { id: 4, text: "Projects", to: "/projects" },
     { id: 5, text: "Contact", to: "/contact" },
   ];
