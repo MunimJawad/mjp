@@ -50,7 +50,7 @@ function Projects() {
     name: "Real-time Messaging System",
     description:
       "Developed a real-time chat system using WebSockets supporting one-to-one and group messaging with presence tracking, typing indicators, and optimized message storage.",
-    demoLink: "https://github.com/MunimJawad/Real-time-chat-application",
+    demoLink: "",
     sourceCode: "https://github.com/MunimJawad/Real-time-chat-application",
   },
     {
