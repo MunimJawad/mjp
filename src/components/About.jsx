@@ -10,9 +10,9 @@ function About() {
             About Me
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed">
-            I am a passionate and detail-oriented Full Stack Developer with a knack for creating efficient and scalable web applications. 
-            My journey in tech has been fueled by a love for solving complex problems and bringing ideas to life through code. 
-            I specialize in building user-friendly interfaces and robust backend systems that deliver impactful user experiences.
+            Backend-focused Full Stack Developer with 2+ years of experience building scalable web applications using Django
+            and modern technologies. Specialized in REST APIs, real-time systems, and enterprise-grade platforms. Strong focus
+            on backend architecture, system design, and performance optimization.
           </p>
         </div>
 
@@ -22,6 +22,9 @@ function About() {
             Education & Training
           </h2>
           <ul className="space-y-3">
+            <li className="text-gray-700">
+              <span className="font-bold">Artificial Intelligence in Integreted Training Program(AITP)</span> – PKSF, 2025
+            </li>
             <li className="text-gray-700">
               <span className="font-bold">Bachelor's in Computer Science</span> – United Internatonal University, 2023
             </li>
@@ -39,20 +42,14 @@ function About() {
           <h2 className="font-semibold text-2xl text-green-600 mb-4">
             Professional Experience
           </h2>
-          <ul className="space-y-3">
-            <li className="text-gray-700">
-              <span className="font-bold">Frontend Developer</span> – TechCorp Solutions, 2020-2022
-              <p className="text-sm text-gray-600">
-                Led the development of responsive web applications, ensuring seamless user experiences.
-              </p>
-            </li>
-            <li className="text-gray-700">
-              <span className="font-bold">Full Stack Developer</span> – InnovateHub, 2022-Present
-              <p className="text-sm text-gray-600">
-                Designed and implemented scalable backend systems and interactive frontend components for enterprise clients.
-              </p>
-            </li>
-          </ul>
+       <ul className="space-y-3">
+  <li className="text-gray-700">
+    <span className="font-bold">Full Stack Developer</span> – Padakhep ICT (Padakhep Manabik Unnayan Kendra, Bangladesh), 2024–Present
+    <p className="text-sm text-gray-600">
+      Developed and maintained scalable web applications using Django, Laravel, React, and PostgreSQL, supporting multiple business workflows. Designed and implemented REST APIs for frontend and third-party integrations, optimized backend systems and database queries to improve performance, built dynamic and responsive user interfaces using JavaScript and Tailwind CSS, and collaborated with team members to deliver production-ready features and system improvements.
+    </p>
+  </li>
+</ul>
         </div>
 
         {/* Skills & Expertise Section */}
@@ -62,22 +59,31 @@ function About() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              React.js
+              Python
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
               Django
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              JavaScript (ES6+)
+              Django Rest Framework
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              MySQL
+              PostgresSQL, MySQL
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              RESTful APIs
+              RESTful APIs, WebSocket
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              Tailwind CSS
+              JavaScript
+            </span>
+             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
+              React, Next.js
+            </span>
+             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
+              PHP, Lareavel
+            </span>
+            <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
+              CSS, Tailwind CSS
             </span>
           </div>
         </div>
