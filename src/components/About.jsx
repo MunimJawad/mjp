@@ -78,7 +78,7 @@ function About() {
               React, Next.js
             </span>
              <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
-              PHP, Lareavel
+              PHP, Laravel
             </span>
             <span className="bg-gray-100 px-4 py-2 rounded-md shadow-sm text-gray-700 font-medium">
               CSS, Tailwind CSS
