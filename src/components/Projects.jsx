@@ -7,56 +7,62 @@ import mysql from "../assets/MySQL.png";
 import images from "../assets/images.png";
 
 function Projects() {
-  const cardItem = [
+ const cardItem = [
+  {
+    id: 1,
+    logo: django,
+    name: "Ticketing System",
+    description:
+      "Built a full-stack ticketing system to manage issue lifecycle with assignment, status tracking, and resolution workflows. Implemented role-based access control, advanced filtering, and optimized database queries for performance.",
+    demoLink: "https://stage-op.padakhep.org/login", // add live link if available
+    sourceCode: "#",
+  },
+  {
+    id: 2,
+    logo: django,
+    name: "Vehicle Management System",
+    description:
+      "Developed a vehicle management system to track vehicle usage, assignments, and maintenance records. Designed scalable backend with optimized database schema and role-based permissions for operational workflows.",
+    demoLink: "https://stage-op.padakhep.org/login",
+    sourceCode: "#",
+  },
+  {
+    id: 3,
+    logo: django,
+    name: "Enterprise Management System (OnePadakhep)",
+    description:
+      "Designed and developed a production-grade enterprise system integrating multiple business workflows into a unified platform with modular architecture, role-based access control, and scalable backend.",
+    demoLink: "https://stage-op.padakhep.org/login",
+    sourceCode: "#",
+  },
+  {
+    id: 4,
+    logo: django,
+    name: "CMS – padakhep.org",
+    description:
+      "Built a production-grade content management system with dynamic page, post, and media management. Implemented admin workflows and scalable backend architecture for non-technical users.",
+    demoLink: "https://www.padakhep.org/",
+    sourceCode: "#",
+  },
+  {
+    id: 5,
+    logo: django,
+    name: "Real-time Messaging System",
+    description:
+      "Developed a real-time chat system using WebSockets supporting one-to-one and group messaging with presence tracking, typing indicators, and optimized message storage.",
+    demoLink: "https://github.com/MunimJawad/Real-time-chat-application",
+    sourceCode: "#",
+  },
     {
-      id: 1,
-      logo: python,
-      name: "Python",
-      description: "Built robust data pipelines and automation scripts.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-    {
-      id: 2,
-      logo: java,
-      name: "Java",
-      description: "Developed scalable backend services and APIs.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-    {
-      id: 3,
-      logo: react,
-      name: "React",
-      description: "Crafted dynamic and interactive front-end applications.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-    {
-      id: 4,
-      logo: django,
-      name: "Django",
-      description: "Engineered web applications with a powerful backend.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-    {
-      id: 5,
-      logo: mysql,
-      name: "MySQL",
-      description: "Designed and optimized relational databases.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-    {
-      id: 6,
-      logo: images,
-      name: "Tailwind CSS",
-      description: "Enhanced UI/UX with responsive design systems.",
-      demoLink: "#",
-      sourceCode: "#",
-    },
-  ];
+  id: 6,
+  logo: django,
+  name: "E-commerce API Backend",
+  description:
+    "Developed a scalable e-commerce REST API using Django REST Framework with authentication, product management, cart, and order processing. Implemented JWT-based authentication, optimized database queries, and structured modular API architecture for performance and scalability.",
+  demoLink: "#", // add live API/docs if available
+  sourceCode: "https://github.com/MunimJawad/EcommerceAPI-Django-",
+},
+];
 
   return (
     <div
