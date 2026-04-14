@@ -32,8 +32,9 @@ function Home() {
                 </div>
                <br/>
                 <p className='text-sm md:text-md text-justify'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut congue arcu, quis lacinia sem. Suspendisse aliquet ligula eget ultricies egestas. Integer ac turpis pulvinar arcu vulputate pulvinar vitae in tortor. Cras sollicitudin neque at lorem commodo consectetur. Phasellus a risus id orci finibus maximus. Fusce non vehicula ante. Praesent tincidunt nibh molestie enim fringilla congue. Praesent sodales imperdiet ultricies.
-                Fusce a hendrerit sapien, et ultrices risus.
+               Backend-focused Full Stack Developer with 2+ years of experience building scalable web applications using Django
+and modern technologies. Specialized in REST APIs, real-time systems, and enterprise-grade platforms. Strong focus
+on backend architecture, system design, and performance optimization.
                 </p>
                 <br />
                 {/* Social media icons*/}
