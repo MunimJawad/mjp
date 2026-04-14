@@ -28,9 +28,7 @@ function About() {
             <li className="text-gray-700">
               <span className="font-bold">Bachelor's in Computer Science</span> – United Internatonal University, 2023
             </li>
-            <li className="text-gray-700">
-              <span className="font-bold">Certified Full Stack Developer</span> – ABC Coding Bootcamp, 2021
-            </li>
+            
             <li className="text-gray-700">
               <span className="font-bold">Python, Django, React & Advanced JavaScript</span> – Online Training Platform, 2022
             </li>
