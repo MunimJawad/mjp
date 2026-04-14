@@ -105,14 +105,20 @@ function Projects() {
               {description}
             </p>
             <div className="flex justify-center space-x-4 mt-5">
-              <a
-                href={demoLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2 rounded shadow-sm"
-              >
-                View Live
-              </a>
+             {demoLink !== "#" ? (
+  <a
+    href={demoLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-5 py-2 rounded shadow-sm"
+  >
+    View Live
+  </a>
+) : (
+  <span className="bg-gray-400 text-white font-bold px-5 py-2 rounded cursor-not-allowed">
+    Not Hosted
+  </span>
+)}
                {sourceCode !== "#" ? (
     <a
       href={sourceCode}
